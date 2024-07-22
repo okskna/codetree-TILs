@@ -12,6 +12,10 @@ const run = () => {
         }
     }
 
+    if (q.length === 2) {
+        return true;
+    }
+
     if (q.length > 4) {
         return false;
     }
